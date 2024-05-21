@@ -1,0 +1,38 @@
+.dictionary-popup {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+    max-height: 50vh;
+    overflow-y: auto;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    user-select: text; /* Allow text selection within the popup */
+}
+
+.dictionary-popup h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.dictionary-popup h4 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dictionary-popup p {
+    margin: 5px 0;
+}
+
+.dictionary-popup .example {
+    font-style: italic;
+    color: #555;
+}
+
